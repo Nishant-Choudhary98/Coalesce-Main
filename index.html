@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coalesce</title>
+
+    <!-- Favicon Icon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <!-- font links - Poppins & Rufina -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rufina:wght@700&family=Yeseva+One&display=swap" rel="stylesheet">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div id="main">
+
+        <!-- navbar -->
+
+        <div class="navbar">
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li>Studio</li>
+                    <li>Partners</li>
+                    <li>Media</li>
+                    <li>User</li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Circle at the Center -->
+
+        <div class="circle-box">
+            <svg height="402" width="402">
+                <circle r="200" cx="201" cy="201" stroke-width="1px" stroke="gray" fill="none"></circle>
+            </svg>
+            <svg height="402" width="402">
+                <circle r="200" cx="201" cy="201" stroke-width="1px" stroke="white" fill="none" id="svgcircle"></circle>
+            </svg>
+
+            <!-- Buttons for scroll -->
+
+            <div>
+                <span id="step1">Music</span>
+                <span id="step2">Gallery</span>
+                <span id="step3">Store</span>
+                <span id="step4">Weather</span>
+                <span id="step5">Creator</span>
+            </div>
+
+            <!-- Displaying content in the middle of the center circle -->
+
+            <div class="user-box" id="userbox">
+                <div class="user">
+                    <img src="images/bitmoji2.png" alt="">
+                    <h1>Nishant Choudhary</h1>
+                    <p>Developer<br>Don't tell anyone, I'm a Ninja!</p>
+                    <div class="social-links">
+                        <!-- <img src="images/facebook.png" alt="">
+                        <img src="images/instagram.png" alt="">
+                        <img src="images/twitter.png" alt="">
+                        <img src="images/linkedin.png" alt=""> -->
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="images/music.png" alt="">
+                    <h1>Music</h1>
+                    <p>Listen to Latest and Trending english and hindi songs online for free anytime, anywhere</p>
+                    <div class="social-links">
+                        <!-- <img src="images/facebook.png" alt="">
+                        <img src="images/instagram.png" alt="">
+                        <img src="images/twitter.png" alt="">
+                        <img src="images/linkedin.png" alt=""> -->
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="images/photo.png" alt="">
+                    <h1>Gallery</h1>
+                    <p>A smart, light and fast photo and video gallery. Save your favourite printed photos</p>
+                    <div class="social-links">
+                        <!-- <img src="images/facebook.png" alt="">
+                        <img src="images/instagram.png" alt="">
+                        <img src="images/twitter.png" alt="">
+                        <img src="images/linkedin.png" alt=""> -->
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="images/store.jpg" alt="">
+                    <h1>Store</h1>
+                    <p>Online Shopping India - Buy mobiles, laptops, cameras, books, watches, apparel, and e-Gift Cards. Free Shipping & Cash on Delivery</p>
+                    <div class="social-links">
+                        <!-- <img src="images/facebook.png" alt="">
+                        <img src="images/instagram.png" alt="">
+                        <img src="images/twitter.png" alt="">
+                        <img src="images/linkedin.png" alt=""> -->
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="images/weather.png" alt="">
+                    <h1><a href="Weather App/index.html" target="_blank">Weather</a></h1>
+                    <p>A Weather-API that fetches the current weather conditions for any city in the world</p>
+                    <div class="social-links">
+                        <!-- <img src="images/facebook.png" alt="">
+                        <img src="images/instagram.png" alt="">
+                        <img src="images/twitter.png" alt="">
+                        <img src="images/linkedin.png" alt=""> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+
+    <div class="footer" style="font-family: 'Poppins';">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Terms & Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Social Media</h4>
+                    <div class="social-footer">
+                        <a href="https://www.facebook.com/nishant.choudhary.921230" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/nishant.choudhary97?r=nametag" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/Nishant-Choudhary98" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/nishant-choudhary-b77265157/?originalSubdomain=in" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <section>
+                        <form action="Contact form PHP/contact-form.php" method="POST">
+                            <div class="email">
+                                <ul>
+                                    <li>E-mail</li>
+                                    <li><input type="email" name="email" required></li>
+                                    <li>Message</li>
+                                    <li><textarea rows="2" cols="25" name="message" required></textarea></li>
+                                    <li><button type="submit">Send</button></li>
+                                </ul>
+                            </div>
+                        </form>
+                        <!-- <div id="status">Message Send</div> -->
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
